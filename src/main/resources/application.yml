@@ -1,0 +1,12 @@
+server:
+  port: 9292
+
+spring:
+  application:
+    name: STUDENT-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/TonyChinwe/student-config-server
